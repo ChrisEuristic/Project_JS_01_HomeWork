@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+* {
+  margin: 0px;
+  font-family: 'Noto Sans KR';
+  line-height: 25px;
+}
+
+.font-align {
+  text-align: center;
+}
+
+#profile-1 {
+  display: inline-block;
+  float: left;
+  margin-right: 50px;
+}
+
+#profile-2 {
+  padding: 100px 0px;
+  text-align: center;
+  display: inline-block;
+  clear: both;
+}
+
+#profile-name {
+  font-size: 2em;
+  margin-top: 40px;
+}
+
+header, footer {
+  background-color: rgb(82, 82, 241);
+  color: white;
+  padding: 20px;
+  height: 250px;
+}
+
+nav {
+  background-color: rgb(82, 177, 241);
+  font-weight: bold;
+  padding: 10px;
+  font-size: 0.8em;
+}
+
+.title {
+  margin: 30px 0px 20px 20px;
+  border: solid 2px blue;
+  border-width: 0px 0px 0px 8px;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#personal, #univ, #licence, #introduce {
+  box-sizing: border-box;
+  width: 45%;
+  height: 200px;
+  margin: 10px;
+  border-bottom: dotted 1px #282828;
+}
+
+#univ {
+  height: 320px;
+}
+
+.red {
+  border-color: red;
+}
+
+.orange {
+  border-color: orange;
+}
+
+.green {
+  border-color: green;
+}
+
+section {
+  margin-top: 30px;
+}
+
+img {
+  margin: 20px;
+}
+
+p {
+  margin-left: 30px;
+}
+
+.hyperlink-text {
+  margin: 10px 30px;
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.link-button {
+  border: solid 2px white;
+  background-color: white;
+  border-radius: 100px;
+  padding: 5px 10px 7px 10px;
+}
+
+.link-button-border {
+  margin: 0px 10px;
+  display: inline-block;
+  border: solid 1px white;
+  background-color: white;
+  border-radius: 100px;
+  padding: 5px 3px 7px 3px;
+}
+
+#personal ol {
+  list-style-type: none;
+}
+
+nav a:link, a:visited {
+  color: rgb(82, 177, 241);
+  text-decoration: none;
+}
+
+nav a:hover {
+  border: solid 2px rgb(82, 177, 241);
+}
+
+nav a:active {
+  background-color: rgb(82, 177, 241);
+  color: white;
+}
+
+footer {
+  clear: both;
+  margin-top: 20px;
+  height: 100px;
+}
+
+.iconsize-s {
+  display: inline-block;
+  font-size: 0.8em;
+  color: blue;
+}
+
+button[type=submit], button[type=reset] {
+  width: 80px;
+  height: 30px;
+  color: white;
+  background-color: #282828;
+  border-radius: 20px;
+  padding-bottom: 3px;
+  margin: 20px 10px 0px 10px;
+  font-size: 10px;
+}
+
+button[type=submit]:hover, button[type=reset]:hover {
+  background-color: white;
+  color: #282828;
+  border: solid 1px #282828;
+}
+
+label[for=user_name], label[for=user_pw] {
+  text-align: center;
+  display: inline-block;
+  width: 50px;
+  font-size: 0.9em;
+}
+
+legend {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+fieldset {
+  border: dashed 1px #2828287a;
+  border-radius: 10px 0px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+
+fieldset > ul {
+  list-style-type: none;
+}
+
+fieldset > label > img {
+  width : 40px;
+}
+
+#survey {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#survey-title {
+  text-align: center;
+}
+
+#personal-info {
+  margin: 40px 0px 30px 20px;
+  width: 400px;
+}
+
+#personal-info li {
+  margin: 5px 0px 5px 40px;
+}
+
+#like-fruit {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px 30px 20px;
+  width: 400px;
+}
+
+.button-line {
+  text-align: center;
+}
+
+#survey > article {
+  width: 600px;
+}
+
+input[type=text], input[type=password] {
+  width: 150px;
+  border: none;
+  border-bottom: solid 1px #282828;
+}
+
+input[type=text]:hover, input[type=password]:hover {
+  box-shadow: 0px 0px 2px 1px #2828287a;
+}
+
+.icons-down {
+  position: relative;
+  top: 6px;
+}
+
+caption {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 5px;
+}
+
+table {
+  margin-left: 40px;
+  text-align: center;
+  border: solid 1px #282828;
+  border-collapse: collapse;
+  width: 400px;
+}
+
+th {
+  background-color: #28282818;
+  border: solid 1px #282828;
+  padding: 5px;
+}
+
+td {
+  border: solid 1px #282828;
+  padding: 5px;
+}
