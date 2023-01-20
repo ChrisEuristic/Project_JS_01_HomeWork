@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&family=Jua&display=swap');
 
 * {
   margin: 0px;
@@ -6,25 +7,52 @@
   line-height: 25px;
 }
 
-.font-align {
-  text-align: center;
+.font-melody{
+  font-family: 'Hi Melody', cursive;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.font-jua{
+  font-family: 'Jua', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.fs-1{
+  font-size: 6em;
+}
+
+.fs-2{
+  font-size: 4em;
+}
+.fs-3{
+  font-size: 2em;
+}
+
+#profile-area{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #profile-1 {
-  display: inline-block;
-  float: left;
-  margin-right: 50px;
+  /*display: inline-block;*/
+  position: relative;
+  right: 100px;
+  margin-right: 0px;
 }
 
 #profile-2 {
-  padding: 100px 0px;
+  position: relative;
+  left: 120px;
+  bottom: 150px;
   text-align: center;
   display: inline-block;
-  clear: both;
 }
 
 #profile-name {
-  font-size: 2em;
   margin-top: 40px;
 }
 
@@ -32,10 +60,17 @@ header, footer {
   background-color: rgb(82, 82, 241);
   color: white;
   padding: 20px;
+  width: 100%;
   height: 250px;
 }
 
+footer {
+  text-align: center;
+}
+
 nav {
+  width: 100%;
+  text-align: center;
   background-color: rgb(82, 177, 241);
   font-weight: bold;
   padding: 10px;
@@ -48,12 +83,13 @@ nav {
   border-width: 0px 0px 0px 8px;
   padding: 5px 10px;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 100;
+  font-family: 'Jua', sans-serif;
 }
 
 #personal, #univ, #licence, #introduce {
   box-sizing: border-box;
-  width: 45%;
+  width: 500px;
   height: 200px;
   margin: 10px;
   border-bottom: dotted 1px #282828;
@@ -189,6 +225,15 @@ fieldset > label > img {
   width: 600px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#survey-body, #index-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 

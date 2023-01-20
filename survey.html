@@ -8,29 +8,31 @@
     <title>5장 응용문제 : 설문</title>
     <link rel="stylesheet" href="style1.css">
   </head>
-  <body>
+  <body id="survey-body">
     <header>
-      <div id="profile-1"><img src="img/Photo.jpeg" alt="face" width="150"></div>
-      <div id="profile-2">
-        <h1>KO KEON</h1>
-        <div id="profile-name">고건</div>
+      <div id="profile-area">
+        <div id="profile-1"><img src="img/Photo.jpeg" alt="face" width="150"></div>
+        <div id="profile-2">
+          <h1 class="font-melody fs-2">KO KEON</h1>
+          <div id="profile-name" class="font-melody fs-3">고건</div>
+        </div>
       </div>
     </header>
     <!-- 내비게이션 영역 -->
     <nav class="font-align">
-      <div class="link-button-border"><a href="index.html" class="link-button">개인정보</a></div>
-      <div class="link-button-border"><a href="index.html#univ" class="link-button">학력사항</a></div>
-      <div class="link-button-border"><a href="index.html#licence" class="link-button">자격사항</a></div>
-      <div class="link-button-border"><a href="index.html#introduce" class="link-button">자기소개</a></div>
-      <div class="link-button-border"><a href="survey.html" class="link-button">설문조사</a></div>
+      <div class="link-button-border"><a href="index.html" class="link-button font-melody">개인정보</a></div>
+      <div class="link-button-border"><a href="index.html#univ" class="link-button font-melody">학력사항</a></div>
+      <div class="link-button-border"><a href="index.html#licence" class="link-button font-melody">자격사항</a></div>
+      <div class="link-button-border"><a href="index.html#introduce" class="link-button font-melody">자기소개</a></div>
+      <div class="link-button-border"><a href="survey.html" class="link-button font-melody">설문조사</a></div>
     </nav>
 
     <!-- 설문조사 영역 -->
     <section id="survey">
-      <h1 id="survey-title">당신이 좋아하는 과일을 선택해 보세요.</h1>
+      <h1 id="survey-title" class="font-jua fs-3">당신이 좋아하는 과일을 선택해 보세요.</h1>
 
       <fieldset id="personal-info">
-        <legend>&nbsp;개인정보&nbsp;</legend>
+        <legend class="font-melody">&nbsp;개인정보&nbsp;</legend>
         <ul>
           <li>
             <label for="user_name"><span class="material-icons icons-down">face</span></label>
@@ -44,7 +46,7 @@
       </fieldset>
 
       <fieldset id="like-fruit">
-        <legend>&nbsp;좋아하는 과일 선택&nbsp;</legend>
+        <legend class="font-melody">&nbsp;좋아하는 과일 선택&nbsp;</legend>
         <label><input type="radio" name="fruit" id="fruit1" value="딸기"><img src="img/img1.png"></label>
         <label><input type="radio" name="fruit" id="fruit2" value="바나나"><img src="img/img2.png"></label>
         <label><input type="radio" name="fruit" id="fruit3" value="복숭아"><img src="img/img3.png"></label>
